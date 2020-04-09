@@ -7,7 +7,7 @@
                 <div class="card activity-feed">
                     <div class="card-body">
                             {{-- to display array content one by one, we use foreach --}}
-                        <h3 class="mb-4">{{$user->first_name }} {{$user->last_name }} Followed</h3>
+                        <h3 class="mb-4">{{ $user->first_name }} {{ $user->last_name }} Followed</h3>
                         @foreach ($followers as $follower)
                             <div>
                                 <article class="card my-3">

@@ -131,13 +131,11 @@ class UserController extends Controller
         public function following($id){
             // $following=User::find($id);
 
-            // $users=User::where('follower_id', '=', auth()->user()->$followed_id)->get();
-            // $users=User::where('id', '!=', $id)->get();
             $user = User::find($id);
-            $following = $user->followedUsers();
+            $following = $user->followedUsers()->get();
             // $users = User::where('id', '=', auth()->user()->followers())->get();
 
-            // $users=User::all();
+    
 
             return view('users.following' , compact('user', 'following'));
         }
@@ -147,8 +145,8 @@ class UserController extends Controller
 
             // $users=User::where('id', '!=', $id)->get();
             $user = User::find($id);
-            $followers = $user->followers();
-            // $users=User::all();
+            $followers = $user->followers()->get();
+    
 
             return view('users.followers' , compact('user', 'followers'));
         }

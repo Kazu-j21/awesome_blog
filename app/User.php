@@ -44,20 +44,16 @@ class User extends Authenticatable
     }
 
     public function followers(){
-        return $this->belongsToMany('App\User', 'relationships', 'followed_id', 'follower_id')->get();
+
         //Getting all followers of this User
         // return $this->belongsToMany('App\User', 'relationships', 'followed_id', 'follower_id')->withTimestamps();
+        return $this->belongsToMany('App\User', 'relationships', 'followed_id', 'follower_id');
     }
-
-    // public function followedUsers(){
-        //Getting all the users being followedby this User
-        // return $this->belongsToMany('App\User', 'relationships', 'follower_id', 'followed_id')->withTimestamps();
-        // return $this->belongsToMany('App\User', 'relationships', 'follower_id' ,'followed_id')->withTimestamps();
-    // }
 
     public function followedUsers()
     {
-        return $this->belongsToMany('App\User', 'relationships', 'follower_id', 'followed_id')->get();
+        //Getting all the users being followedby this User
+        return $this->belongsToMany('App\User', 'relationships', 'follower_id', 'followed_id');
     }
 
     public function isFollowing($followed_id){
