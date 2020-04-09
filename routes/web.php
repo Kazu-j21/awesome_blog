@@ -52,7 +52,3 @@ Route::get('/unfollow/{followed_id}', 'UserController@unfollow')->name('user.unf
 Route::get('/users/{id}/following', 'UserController@following')->name('user.following');
 
 Route::get('/users/{id}/followers', 'UserController@followers')->name('user.followers');
-
-// Route::get('/users/{id}/userFollowing', 'UserController@userFollowing')->name('user.userFollowing');
-
-// Route::get('/users/{id}/userFollowers', 'UserController@userFollowers')->name('user.userFollowers');

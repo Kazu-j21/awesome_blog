@@ -59,7 +59,7 @@
                     <form class="postarea" action="/post" method="post">
                         @csrf
                         <textarea name="message" cols="80" rows="3" placeholder="Share your thoughts.."></textarea>
-                        <button type="submit" class="btn btn-primary float-right">Post</button>
+                        <button type="submit" class="btn btn-primary mt-1 float-right">Post</button>
                         {{-- <input type="submit" class="btn btn-danger" value="Post"> --}}
                     </form>
                     </div>
