@@ -29,7 +29,7 @@ A web application that lets users post a blog. Users can be able to interact wit
 ・Users list page
 * User can see all users with avatar and name
 * User can follow/unfollow other users
-* User can not see unfollowing user's posts 
+* User can not see unfollowing user's posts (unless user do not follow)
 
 
 
