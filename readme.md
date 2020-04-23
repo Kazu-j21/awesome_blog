@@ -1,3 +1,6 @@
+# URL
+http://aki-awesomeblog.herokuapp.com/
+
 # Project Details
 Project name: Awesome Blog
 
@@ -31,5 +34,11 @@ A web application that lets users post a blog. Users can be able to interact wit
 * User can follow/unfollow other users
 * User can not see unfollowing user's posts (unless user do not follow)
 
-
+# Requirement
+* Laravel 5.7.28
+* Bootstrap 4
+* Html/Css
+* MySQL
+* Docker/docker-compose
+* Heroku
 
