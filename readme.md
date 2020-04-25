@@ -1,5 +1,9 @@
 # URL
-http://aki-awesomeblog.herokuapp.com/
+* http://aki-elearning.herokuapp.com/
+
+* For login, you can use
+    * email: test@gmail.com
+    * password: testtest
 
 # Project Details
 Project name: Awesome Blog
