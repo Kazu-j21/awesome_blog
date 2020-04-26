@@ -1,6 +1,5 @@
 # URL
-* http://aki-elearning.herokuapp.com/
-
+* http://aki-awesomeblog.herokuapp.com/
 * For login, you can use
     * email: test@gmail.com
     * password: testtest
