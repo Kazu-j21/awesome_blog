@@ -1,3 +1,10 @@
+# URL
+* http://aki-awesomeblog.herokuapp.com/
+
+* For login, you can use
+    * email: test@gmail.com
+    * password: testtest
+
 # Project Details
 Project name: Awesome Blog
 
@@ -11,7 +18,7 @@ A web application that lets users post a blog. Users can be able to interact wit
 * User settings
 * Follow/Unfollow function
 
-# Page Contents / User story
+# Project Contents
 ・Dashboard (homepage when logged in)
 * User can see how many posts are posted
 * User can see the number of followers and following users
@@ -29,7 +36,12 @@ A web application that lets users post a blog. Users can be able to interact wit
 ・Users list page
 * User can see all users with avatar and name
 * User can follow/unfollow other users
-* User can not see unfollowing user's posts 
+* User can not see unfollowing user's posts (unless user do not follow)
 
-
-
+# Requirement
+* Laravel 5.7.28
+* Bootstrap 4
+* Html/Css
+* MySQL
+* Docker/docker-compose
+* Heroku
