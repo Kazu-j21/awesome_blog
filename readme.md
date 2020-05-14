@@ -44,9 +44,4 @@ A web application that lets users post a blog. Users can be able to interact wit
 * Html/Css
 * MySQL
 * Docker/docker-compose
-<<<<<<< HEAD
 * Heroku
-=======
-* Heroku
-
->>>>>>> b94bf80ebc43016cfc9bb4f64839a045f0aba940
