@@ -18,7 +18,7 @@ A web application that lets users post a blog. Users can be able to interact wit
 * User settings
 * Follow/Unfollow function
 
-# Page Contents / User story
+# Project Contents
 ・Dashboard (homepage when logged in)
 * User can see how many posts are posted
 * User can see the number of followers and following users
