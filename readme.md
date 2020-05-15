@@ -10,13 +10,30 @@ Project name: Awesome Blog
 
 Project description: 
 
-A web application that lets users post a blog. Users can be able to interact with other users. 
+A web application that lets users post a blog. Users can interact with other users. 
+
+こちらは簡単なTwitterアプリです。ユーザーは登録をするとブログを投稿できる仕組みになっています。また他のユーザーをフォローすることができ、フォローをすればそのユーザーの投稿も見ることができる仕組みになっています。主にLaravelとBootstrapを使ってそれらの機能を作りました。
+
+Awesome blogの制作日数は二週間程度です。
 
 # Project Functionalities
 * User signup
 * User log in
 * User settings
+* User posting function
 * Follow/Unfollow function
+
+機能 :
+
+* ユーザー登録
+* ログイン/ログアウト
+* フォロー/アンフォロー
+* ユーザープロフィール編集機能
+* ユーザーのアバター編集機能
+* ブログ投稿機能
+* メンバーリスト表示機能
+* フォローユーザー、フォロワーリスト表示機能
+
 
 # Project Contents
 ・Dashboard (homepage when logged in)
